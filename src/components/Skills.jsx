@@ -1,13 +1,68 @@
-import React, { Component } from 'react';
+import React from "react";
 
-class Skills extends Component {
-  render() {
-    return (
-      <div>
-        A 23-year-old young man who likes challenges and solving problems to get out of difficult situations. I am applying for my career as versatile as possible work experience and new challenges. I am currently studying ICT in Metropolia University of Applied Sciences and my major is Mobile Solutions. I like to do sports and take care of my own fitness and health. Hobbies include regular gym and cycling.
-      </div>
-    );
-  }
-}
+const Skills = () => {
+  return (
+    <div>
+      <div style={styles.header}>Skills</div>
+      <ul>
+        <li>Self-initiated and solution-oriented attitude</li>
+        <li>Customer service</li>
+        <li>Excellent problem solving skills</li>
+        <li>Mathematical solving ability</li>
+        <li>Information technology</li>
+        <li>
+          Coding experience in:
+          <ul>
+            <li>C</li>
+            <li>Java</li>
+            <li>Kotlin</li>
+            <li>C#</li>
+            <li>Javascript</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>SQL</li>
+          </ul>
+        </li>
+        <li>
+          Video editing:
+          <ul>
+            <li>Sony Vegas Pro</li>
+            <li>Adobe Premiere Pro</li>
+          </ul>
+        </li>
+        <li>
+          Image editing:
+          <ul>
+            <li>Adobe Photoshop</li>
+          </ul>
+        </li>
+        <li>
+          Languages:
+          <ul>
+            <li>Finnish (native)</li>
+            <li>English (fluent)</li>
+            <li>Swedish (basics)</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  );
+};
+
+const styles = {
+  container: {
+    flex: 1,
+    display: 'flex',
+    flexDirection: 'column',
+    backgroundColor: '#fff',
+    alignItems: 'flex-start',
+    justifyContent: 'center',
+    padding: 40,
+  },
+  header: {
+    fontSize: 24,
+    fontWeight: 'bold',
+  },
+};
 
 export default Skills;
