@@ -21,10 +21,10 @@ const styles = {
     flex: 1,
     display: "flex",
     flexDirection: "column",
-    backgroundColor: "#fff",
     alignItems: "flex-start",
     justifyContent: "center",
     padding: 40,
+    paddingBottom: 0,
   },
   header: {
     fontSize: 24,
@@ -33,7 +33,6 @@ const styles = {
   text: {
     width: 300,
     marginTop: 16,
-    marginBottom: 16,
   },
 };
 

@@ -1,8 +1,10 @@
 import "./App.css";
 import About from "./components/About";
 import { Contact } from "./components/Contact";
+import { Education } from "./components/Education";
 import Profile from "./components/Profile";
 import Skills from "./components/Skills";
+import { WorkExperience } from "./components/WorkExperience";
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
         </div>
         <div>
           <Contact />
+          <WorkExperience />
+          <Education />
         </div>
       </div>
     </div>
@@ -33,8 +37,9 @@ const styles = {
   container: {
     flex: 1,
     display: "flex",
+    alignSelf: 'stretch',
     flexDirection: "row",
-    backgroundColor: "#fff",
+    backgroundColor: "lightgrey",
     alignItems: "flex-start",
     justifyContent: "center",
   },
