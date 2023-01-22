@@ -1,16 +1,46 @@
-import './App.css';
-import About from './components/About';
-import Profile from './components/Profile';
-import Skills from './components/Skills';
+import "./App.css";
+import About from "./components/About";
+import { Contact } from "./components/Contact";
+import Profile from "./components/Profile";
+import Skills from "./components/Skills";
 
 function App() {
   return (
-    <div>
+    <div style={styles.top}>
       <Profile />
-      <About />
-      <Skills />
+      <div style={styles.container}>
+        <div>
+          <About />
+          <Skills />
+        </div>
+        <div>
+          <Contact />
+        </div>
+      </div>
     </div>
   );
 }
+
+const styles = {
+  top: {
+    flex: 1,
+    display: "flex",
+    flexDirection: "column",
+    backgroundColor: "#fff",
+    alignItems: "center",
+    justifyContent: "center",
+  },
+  container: {
+    flex: 1,
+    display: "flex",
+    flexDirection: "row",
+    backgroundColor: "#fff",
+    alignItems: "flex-start",
+    justifyContent: "center",
+  },
+  text: {
+    width: 300,
+  },
+};
 
 export default App;

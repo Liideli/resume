@@ -3,6 +3,7 @@ import React from "react";
 const About = () => {
   return (
     <div style={styles.container}>
+      <div style={styles.header}>About</div>
       <div style={styles.text}>
         A 23-year-old young man who likes challenges and solving problems to get
         out of difficult situations. I am applying for my career as versatile as
@@ -25,8 +26,14 @@ const styles = {
     justifyContent: "center",
     padding: 40,
   },
+  header: {
+    fontSize: 24,
+    fontWeight: 'bold',
+  },
   text: {
     width: 300,
+    marginTop: 16,
+    marginBottom: 16,
   },
 };
 

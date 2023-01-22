@@ -14,16 +14,18 @@ const Profile = () => {
 
 const styles = {
   container: {
+    alignSelf: 'stretch',
     flex: 1,
     display: 'flex',
-    flexDirection: 'column',
-    backgroundColor: '#fff',
-    alignItems: 'flex-start',
+    flexDirection: 'row',
+    backgroundColor: 'lightblue',
+    alignItems: 'center',
     justifyContent: 'center',
     padding: 40,
   },
   name: {
-    fontSize: 32,
+    fontSize: 42,
+    padding: 20,
     fontWeight: 'bold',
   },
   center: {
