@@ -5,17 +5,7 @@ export const WorkExperience = () => {
     <div style={styles.container}>
       <div style={styles.header}>Work Experience</div>
       <div style={styles.text}>
-        <div>HAKONEN SOLUTIONS OY, 9.6.2017-23.4.2018</div>
-        <div>Employee of the moving service industry</div>
-        <div>
-          <ul>
-            <li>Furniture and package delivery</li>
-            <li>Company relocations</li>
-            <li>Private removals</li>
-            <li>Furniture installations</li>
-          </ul>
-        </div>
-        <div>KOTIKATU OY, 2018-</div>
+        <div style={styles.subheader}>KOTIKATU OY, 2018-</div>
         <div>Maintenance and renovation of playgrounds</div>
         <div>
           <ul>
@@ -28,7 +18,17 @@ export const WorkExperience = () => {
             <li>Other tasks related to property maintenance</li>
           </ul>
         </div>
-        <div>RAX BUFFET MYYRMANNI, November 2014</div>
+        <div style={styles.subheader}>HAKONEN SOLUTIONS OY, 9.6.2017-23.4.2018</div>
+        <div>Employee of the moving service industry</div>
+        <div>
+          <ul>
+            <li>Furniture and package delivery</li>
+            <li>Company relocations</li>
+            <li>Private removals</li>
+            <li>Furniture installations</li>
+          </ul>
+        </div>
+        <div style={styles.subheader}>RAX BUFFET MYYRMANNI, November 2014</div>
         <div>Restaurant assistant</div>
         <div>
           <ul>
@@ -55,6 +55,9 @@ const styles = {
   },
   header: {
     fontSize: 24,
+    fontWeight: "bold",
+  },
+  subheader: {
     fontWeight: "bold",
   },
   text: {
