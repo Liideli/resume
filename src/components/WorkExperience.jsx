@@ -63,5 +63,6 @@ const styles = {
   text: {
     width: 300,
     marginTop: 16,
+    marginBottom: -16,
   },
 };

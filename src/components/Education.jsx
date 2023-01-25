@@ -8,7 +8,7 @@ export const Education = () => {
         <div style={styles.school}>VIHERLAAKSO HIGHSCHOOL</div>
         <div>Matriculation examination</div>
         <div>August 2015- June 2018</div>
-        <div style={styles.school}>METROPOLIA UNIVERSITY OF APPLIED SCIENCE</div>
+        <div style={styles.school}>METROPOLIA UNIVERSITY OF APPLIED SCIENCES</div>
         <div>Information And Communications Technology</div>
         <div>August 2021-</div>
       </div>
@@ -32,6 +32,7 @@ const styles = {
   },
   text: {
     width: 300,
+    paddingBottom: 40,
   },
   school: {
     marginTop: 16,

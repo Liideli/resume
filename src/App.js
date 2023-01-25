@@ -21,6 +21,7 @@ function App() {
           <Education />
         </div>
       </div>
+      <div style={styles.bottom}> Made with React.</div>
     </div>
   );
 }
@@ -30,7 +31,7 @@ const styles = {
     flex: 1,
     display: "flex",
     flexDirection: "column",
-    backgroundColor: "#fff",
+    backgroundColor: "lightblue",
     alignItems: "center",
     justifyContent: "center",
   },
@@ -44,7 +45,16 @@ const styles = {
     justifyContent: "center",
   },
   text: {
-    width: 300,
+    width: 500,
+  },
+  bottom: {
+    fontSize: 12,
+    fontWeight: "200",
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+    height: 100,
+    backgroundColor: 'lightblue',
   },
 };
 
