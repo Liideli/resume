@@ -26,6 +26,7 @@ function App() {
           <Education />
         </div>
       </div>
+      <div style={styles.bottom}> Made with React.</div>
     </div>
   );
 }
@@ -36,8 +37,8 @@ const styles = {
     display: "flex",
     flexDirection: "column",
     backgroundColor: "#fff",
-  },
-  navbar: {
+    alignItems: "center",
+    justifyContent: "center",
   },
   container: {
     flex: 1,
@@ -49,7 +50,16 @@ const styles = {
     justifyContent: "center",
   },
   text: {
-    width: 300,
+    width: 500,
+  },
+  bottom: {
+    fontSize: 12,
+    fontWeight: "200",
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+    height: 100,
+    backgroundColor: 'lightblue',
   },
 };
 

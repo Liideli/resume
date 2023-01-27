@@ -14,15 +14,12 @@ const Skills = () => {
           <li>Information technology</li>
           <li>
             Coding experience in:
-            <FontAwesomeIcon icon="fa-solid fa-user" />
             <ul>
               <li>C</li>
               <li>Java</li>
               <li>Kotlin</li>
               <li>C#</li>
-              <li>
-                <FontAwesomeIcon icon="fa-brands fa-square-js" />
-              </li>
+              <li>JavaScript </li>
               <li>HTML</li>
               <li>CSS</li>
               <li>SQL</li>
