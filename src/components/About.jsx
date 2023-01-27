@@ -25,6 +25,8 @@ const styles = {
     justifyContent: "center",
     padding: 40,
     paddingBottom: 0,
+    borderBottomWidth: 500,
+    borderBottomColor:'white',
   },
   header: {
     fontSize: 24,

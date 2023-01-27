@@ -12,7 +12,7 @@ const Skills = () => {
           <li>Excellent problem solving skills</li>
           <li>Mathematical solving ability</li>
           <li>Information technology</li>
-          <li>
+          <li style={styles.coding}>
             Coding experience in:
             <ul>
               <li>C</li>
@@ -66,6 +66,10 @@ const styles = {
     fontSize: 24,
     fontWeight: "bold",
     paddingLeft: 40,
+  },
+  coding: {
+    fontSize: 16,
+    fontWeight: 'bold',
   },
 };
 
