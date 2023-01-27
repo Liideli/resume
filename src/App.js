@@ -40,6 +40,10 @@ const styles = {
     alignItems: "center",
     justifyContent: "center",
   },
+  navbar: {
+    alignSelf: "stretch",
+
+  },
   container: {
     flex: 1,
     display: "flex",
