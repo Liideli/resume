@@ -24,8 +24,6 @@ const styles = {
     alignItems: "flex-start",
     justifyContent: "center",
     padding: 40,
-    paddingBottom: 0,
-    borderBottomWidth: 500,
     borderBottomColor:'white',
   },
   header: {
@@ -33,7 +31,7 @@ const styles = {
     fontWeight: 'bold',
   },
   text: {
-    width: 300,
+    fontSize: 18,
     marginTop: 16,
   },
 };

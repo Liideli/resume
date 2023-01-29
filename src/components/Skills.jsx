@@ -60,7 +60,6 @@ const styles = {
     alignItems: "flex-start",
     justifyContent: "center",
     paddingTop: 40,
-    paddingBottom: 0,
   },
   header: {
     fontSize: 24,
