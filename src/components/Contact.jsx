@@ -21,7 +21,6 @@ const styles = {
     alignItems: "flex-start",
     justifyContent: "center",
     padding: 40,
-    paddingBottom: 0,
   },
   header: {
     fontSize: 24,

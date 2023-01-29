@@ -7,24 +7,21 @@ import Profile from "./components/Profile";
 import Skills from "./components/Skills";
 import { WorkExperience } from "./components/WorkExperience";
 import "bootstrap/dist/css/bootstrap.min.css";
+import { Route, Routes } from "react-router-dom";
 
 function App() {
   return (
     <div style={styles.top}>
       <Profile />
-      <div style={styles.navbar}>
         <NavBar />
-      </div>
       <div style={styles.container}>
-        <div>
-          <About />
-          <Skills />
-        </div>
-        <div>
-          <Contact />
-          <WorkExperience />
-          <Education />
-        </div>
+        <Routes>
+          <Route path="/about" element={<About />}/>
+          <Route path="/contact" element={<Contact />}/>
+          <Route path="/skills" element={<Skills />}/>
+          <Route path="/work" element={<WorkExperience />}/>
+          <Route path="/education" element={<Education />}/>
+        </Routes>
       </div>
       <div style={styles.bottom}> Made with React.</div>
     </div>
@@ -34,21 +31,17 @@ function App() {
 const styles = {
   top: {
     flex: 1,
-    display: "flex",
     flexDirection: "column",
     backgroundColor: "#fff",
     alignItems: "center",
     justifyContent: "center",
-  },
-  navbar: {
-    alignSelf: "stretch",
-
   },
   container: {
     flex: 1,
     display: "flex",
     alignSelf: "stretch",
     flexDirection: "row",
+    height: 500,
     backgroundColor: "lightgrey",
     alignItems: "flex-start",
     justifyContent: "center",
@@ -62,6 +55,7 @@ const styles = {
     display: "flex",
     alignItems: "center",
     justifyContent: "center",
+    alignSelf: "stretch",
     height: 100,
     backgroundColor: 'lightblue',
   },
