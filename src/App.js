@@ -42,7 +42,6 @@ const styles = {
     display: "flex",
     alignSelf: "stretch",
     flexDirection: "row",
-    height: 500,
     backgroundColor: "lightgrey",
     alignItems: "flex-start",
     justifyContent: "center",
