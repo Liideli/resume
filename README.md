@@ -3,4 +3,4 @@ This is a React based CV application that showcases my professional skills, cont
 
 The initial idea behind this project is to learn the basics of working with React and Bootstrap.
 
-You can see the deployed version at: https://liideli.github.io/resume/
+## You can see the deployed version at: https://liideli.github.io/resume/
