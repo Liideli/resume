@@ -8,9 +8,9 @@ import { WorkExperience } from "./components/WorkExperience";
 
 function App() {
   return (
-    <div style={styles.top}>
+    <div style={styles.top} className="top">
       <Profile />
-      <div style={styles.container}>
+      <div style={styles.container} className="container">
         <div>
           <About />
           <Skills />
@@ -39,9 +39,7 @@ const styles = {
     flex: 1,
     display: "flex",
     alignSelf: 'stretch',
-    flexDirection: "row",
     backgroundColor: "lightgrey",
-    alignItems: "flex-start",
     justifyContent: "center",
   },
   text: {
@@ -56,6 +54,7 @@ const styles = {
     height: 100,
     backgroundColor: 'lightblue',
   },
+  
 };
 
 export default App;

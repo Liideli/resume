@@ -1,9 +1,10 @@
 import React from 'react';
+import "../App.css";
 
 
 const Profile = () => {
   return (
-    <div style={styles.container}>
+    <div style={styles.container} className="top">
       <img src={require('../img/profilePic.JPG')} alt="Profile pic" style={styles.img}></img>
       <div style={styles.center}>
       <div style={styles.name}>Roope Laine</div>
@@ -17,7 +18,6 @@ const styles = {
     alignSelf: 'stretch',
     flex: 1,
     display: 'flex',
-    flexDirection: 'row',
     backgroundColor: 'lightblue',
     alignItems: 'center',
     justifyContent: 'center',
