@@ -18,7 +18,9 @@ const Skills = () => {
               <li>Java</li>
               <li>Kotlin</li>
               <li>C#</li>
-              <li>JavaScript </li>
+              <li>JavaScript</li>
+              <li>React</li>
+              <li>React Native</li>
               <li>HTML</li>
               <li>CSS</li>
               <li>SQL</li>
